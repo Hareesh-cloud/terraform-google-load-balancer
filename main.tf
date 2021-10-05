@@ -2,7 +2,7 @@
 # LAUNCH A LOAD BALANCER WITH INSTANCE GROUP AND STORAGE BUCKET BACKEND
 #
 # This is an example of how to use the http-load-balancer module to deploy a HTTP load balancer
-# with multiple backends and optionally ssl and custom domain.
+# with multiple backends and optionally ssl and custom domain.  
 # ---------------------------------------------------------------------------------------------------------------------
 
 terraform {
