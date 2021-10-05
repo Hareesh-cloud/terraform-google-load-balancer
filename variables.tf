@@ -6,16 +6,19 @@
 variable "project" {
   description = "The project ID to create the resources in."
   type        = string
+  default     = "manifest-access-320809"
 }
 
 variable "region" {
   description = "The region to create the resources in."
   type        = string
+  default     = "us-central1"
 }
 
 variable "zone" {
   description = "The availability zone to create the sample compute instances in. Must within the region specified in 'var.region'"
   type        = string
+  default     = "us-central1-b"
 }
 
 # ---------------------------------------------------------------------------------------------------------------------
@@ -26,7 +29,7 @@ variable "zone" {
 variable "name" {
   description = "Name for the load balancer forwarding rule and prefix for supporting resources."
   type        = string
-  default     = "http-multi-backend"
+  default     = "http-loadbalancer"
 }
 
 variable "enable_ssl" {
