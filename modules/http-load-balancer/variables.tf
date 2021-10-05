@@ -20,7 +20,7 @@ variable "url_map" {
 
 # ---------------------------------------------------------------------------------------------------------------------
 # OPTIONAL MODULE PARAMETERS
-# These variables have defaults, but may be overridden by the operator.
+# These variables have defaults, but may be overridden by the operator. 
 # ---------------------------------------------------------------------------------------------------------------------
 variable "enable_ssl" {
   description = "Set to true to enable ssl. If set to 'true', you will also have to provide 'var.ssl_certificates'."
